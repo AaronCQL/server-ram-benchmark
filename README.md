@@ -22,6 +22,7 @@ This benchmark compares RAM usage across different frameworks under a constant (
 | `go-gin` | 9.7 MB | 25 MB |
 | `rust-vanilla` | 1.7 MB | 4.5 MB |
 | `rust-actix` | 4.2 MB | 10 MB |
+| `rust-rocket` | 5.1 MB | 20 MB |
 
 - `node`: under load, RAM usage rises from idle, but stabilises near the max (+- a few MB)
 - `bun`: under load, RAM usage constantly rises from idle, and doesn't seem to stabilise (tests were stopped after ~5 mins)

@@ -1,11 +1,9 @@
-async function wait() {
-  return new Promise((resolve) => setTimeout(resolve, 1000));
-}
+const Bun = require("bun");
 
 export default {
   port: 3000,
   async fetch(request) {
-    await wait();
+    await Bun.sleep(1000);
     return new Response("bun-vanilla\n");
   },
 };

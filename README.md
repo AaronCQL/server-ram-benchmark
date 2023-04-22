@@ -18,6 +18,7 @@ This benchmark compares RAM usage across different frameworks under a constant (
 | `bun-elysia` | 53 MB | 120++ MB |
 | `go-vanilla` | 4.7 MB | 17 MB |
 | `go-fasthttp` | 4.7 MB | 13 MB |
+| `go-fiber` | 6.1 MB | 14 MB |
 | `go-gin` | 9.7 MB | 25 MB |
 | `rust-vanilla` | 1.7 MB | 4.5 MB |
 | `rust-actix` | 4.2 MB | 10 MB |

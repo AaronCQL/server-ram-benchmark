@@ -1,0 +1,14 @@
+lockfileVersion: '6.0'
+
+dependencies:
+  uWebSockets.js:
+    specifier: github:uNetworking/uWebSockets.js#v20.23.0
+    version: github.com/uNetworking/uWebSockets.js/49f8f1eb54435e4c3e3e436571e93d1f06aaabbb
+
+packages:
+
+  github.com/uNetworking/uWebSockets.js/49f8f1eb54435e4c3e3e436571e93d1f06aaabbb:
+    resolution: {tarball: https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/49f8f1eb54435e4c3e3e436571e93d1f06aaabbb}
+    name: uWebSockets.js
+    version: 20.23.0
+    dev: false
